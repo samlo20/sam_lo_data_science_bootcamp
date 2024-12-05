@@ -1,0 +1,13 @@
+#Welcome message
+print("\n")
+print("Hello World! \n")
+
+#Query the user
+user_name = input("What is your user name ? ").strip().capitalize()
+print("\n")
+print(f"Welcome {user_name} ! \n")
+
+#Query the User Email
+user_email = input("What is your e_mail address ? \n").strip().lower()
+print("\n")
+print(f"{user_name}, We will contanct you shortly at {user_email}")
