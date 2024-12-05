@@ -1,0 +1,11 @@
+Task 1: PseudoCode
+
+# Query the user 
+What is your name? 
+# Query the user's hydration routine (i.e. drinking water habits)
+How many cups of water do you drink every day? 
+#Conditional statements
+If number of cups is greater than or equal to 8 
+  Encourage the user to keep on the habit
+else if less than 8 cups
+  Encourage them to drink more water, as it will decrease the risk of dehydration. 
