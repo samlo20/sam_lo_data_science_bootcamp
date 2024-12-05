@@ -1,0 +1,21 @@
+'''
+>= greater or equal to
+<= less or equal to
+== equal to
+> greather than
+< less than
+!= not equal
+'''
+marks = int(input("What is the current mark? "))
+#print(marks)
+print("\n")
+if marks >= 70:
+  print("First Class results! \n")
+elif marks >= 60 and marks <= 69:
+  print("Upper second class honours \n")
+elif marks >= 50 and marks <= 59:
+  print("Lower second class honours \n")
+elif marks >= 40 and marks <= 49:
+  print("Third class results \n")
+else:
+  print("Failed")
