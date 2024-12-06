@@ -4,8 +4,18 @@ Task 1: PseudoCode
 What is your name? 
 # Query the user's hydration routine (i.e. drinking water habits)
 How many cups of water do you drink every day? 
+Please type in a numerical number 
+
+#Input Validation
+If the number is non-numerical i.e. have words or characters rather than a number in a string
+  return an error statement and also return to the first question. This would require
+  a while loop. 
+else 
+  break the loop and continue to the conditional statements 
+
 #Conditional statements
 If number of cups is greater than or equal to 8 
+  Show them the number of cups they have drank
   Encourage the user to keep on the habit
 else if less than 8 cups
   Encourage them to drink more water, as it will decrease the risk of dehydration. 
