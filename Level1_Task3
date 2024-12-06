@@ -10,14 +10,17 @@ print(f"Hello {user_name} ! \n")
 user_height = input("What is your height in metres ? ").strip()
 metres_number = float(user_height)
 height_inches = round(metres_number*100/2.54)
-feet,inches = divmod(height_inches,12)
-
+#Convert inches to feet and inches using a function called divmod to find the quote and the remainder
+#Quote = feet and Remainder = inches 
+feet,inches = divmod(height_inches,12) 
+#Give the final results
 print(f"Your height is {feet} ft and {inches} inches, or {metres_number} metres. \n")
 
 #Query Weight
 user_weight = input("What is your weight in kilograms ? ").strip()
 weight_kg = float(user_weight)
-
+#Give the weight result
 print(f"Your weight is {weight_kg} kilograms. \n")
+#Show the user the calculated BMI, or Body Mass Index
 bmi_ratio = round(weight_kg/math.pow(metres_number,2),2) #BMI in 2 decimal places 
 print(f"Your BMI is {bmi_ratio}. \n")
