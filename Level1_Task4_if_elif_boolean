@@ -1,4 +1,5 @@
 '''
+Conditional booleans 
 >= greater or equal to
 <= less or equal to
 == equal to
@@ -6,9 +7,11 @@
 < less than
 != not equal
 '''
+#Query the results for a university classed classification process
 marks = int(input("What is the current mark? "))
 #print(marks)
 print("\n")
+#Conditional statements to classify the results 
 if marks >= 70:
   print("First Class results! \n")
 elif marks >= 60 and marks <= 69:
@@ -18,4 +21,4 @@ elif marks >= 50 and marks <= 59:
 elif marks >= 40 and marks <= 49:
   print("Third class results \n")
 else:
-  print("Failed")
+  print("Failed \n")
