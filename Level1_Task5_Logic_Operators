@@ -1,0 +1,31 @@
+'''
+Logic Gates for coding 
+
+and - Logic AND - both statements need to be acheived  
+or  - Logic OR - one or both statements needs to be acheived 
+not - Logic NOT - Statement is not true - Logic rubric: 1 -> 0
+'''
+'''
+Logic Gates 
+nand - Logic NAND = Not AND 
+nor - Logic NOR = Not OR 
+'''
+#Query a numerical score number 
+input_number = input("What is the score number ? ").strip()
+true_number = input_number.isnumeric() #Validation of a numeric result
+if (true_number != True):
+  print("Error! The score number must be a numeric number ! \n")
+else:
+  print("The score number is valid! \n")
+  score_result = int(input_number)
+  if (score_result > 70 or score_result >= 60 ): #OR Function 
+    print("Excellent score! \n")
+    print(f"Your result is {input_number} points \n") #AND Function
+  elif (score_result >= 20 and score_result < 60):
+    print("Good Score! \n")
+    print(f"Your result is {input_number} points \n")
+  elif not(score_result == 0): #NOT Function 
+    print("You have achieved something! \n")
+    print(f"Your result is {input_number} points \n")
+  else:
+    print(f"Your result is {input_number} points \n")
